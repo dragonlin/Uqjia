@@ -56,6 +56,11 @@ h6,
     display: block;
 }
 
+.ad-wrap {
+    height: 660px;
+    /* width: 800px; */
+}
+
 .color-b {
     color: #2eca6a;
 }
@@ -437,7 +442,7 @@ h6,
     padding-bottom: 4px;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    box-shadow: 1px 2px 15px rgba(100, 100, 100, 0.3);
+    /* box-shadow: 1px 2px 15px rgba(100, 100, 100, 0.3); */
 }
 
 .navbar-default .nav-search {
@@ -774,4 +779,8 @@ h6,
 
 .social a:hover {
     color: #000;
+}
+
+header {
+    padding: 1rem 0 1rem 0;
 }
