@@ -21,18 +21,20 @@
   var siteIstotope = function() {
     var $container = $('#portfolio-grid').isotope({
       itemSelector: '.item',
-      isFitWidth: true
+      isFitWidth: true,
+      filter: '.jiaju'
     });
 
     $(window).resize(function() {
       $container.isotope({
+        filter: '.jiaju',
         columnWidth: '.col-sm-3'
       });
     });
 
-    $container.isotope({
-      filter: '*'
-    });
+    // $container.isotope({
+    //   filter: '.jiaju'
+    // });
 
     $('#filters').on('click', 'a', function(e) {
       e.preventDefault();

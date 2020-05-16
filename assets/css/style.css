@@ -475,6 +475,13 @@ h6,
     }
 }
 
+@media (min-width: 968px) {
+    .navbar-default.navbar-trans .nav-item,
+    .navbar-default.navbar-reduce .nav-item {
+        margin-right: 85px;
+    }
+}
+
 .navbar-default.navbar-trans .nav-link,
 .navbar-default.navbar-reduce .nav-link {
     font-size: 1.1rem;
@@ -783,4 +790,8 @@ h6,
 
 header {
     padding: 1rem 0 1rem 0;
+}
+
+.text-center {
+    text-align: center;
 }
