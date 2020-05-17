@@ -48,8 +48,8 @@ h6,
 }
 
 .logo {
-    width: 66px;
-    height: 70px;
+    width: 77px;
+    height: 80px;
     top: 31px;
     background: url(../img/logo_sm.jpg) no-repeat center center;
     background-size: 100%;
@@ -112,6 +112,10 @@ h6,
     display: block;
     position: relative;
     overflow: hidden;
+}
+
+.home-lunzhuan .item .item-wrap {
+    height: 160px;
 }
 
 .item .item-wrap:after {
