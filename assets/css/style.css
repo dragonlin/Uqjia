@@ -811,6 +811,21 @@ header {
     padding-top: 10px;
 }
 
+.buy-text-title-b {
+    font-size: 20PX;
+    color: #434343;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.buy-text-content-ruanzhuang {
+    text-align: center;
+    font-size: 16px;
+    color: #bab9b9;
+    /* margin-top: 8px; */
+    line-height: 30px;
+}
+
 .buy-text-content {
     text-align: center;
     font-size: 16px;

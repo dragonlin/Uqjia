@@ -48,9 +48,10 @@
   }
   $(window).on('load', function() {
     siteIstotope();
+    $("img.lazy").lazyload();
   });
   
-  $("img.lazy").lazyload();
+
 
   var siteOwlCarousel = function() {
     $('.testimonial-carousel').owlCarousel({
