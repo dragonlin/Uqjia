@@ -833,3 +833,183 @@ header {
     margin-top: 22px;
     line-height: 30px;
 }
+
+
+/* .container {
+    max-width: 1280px;
+} */
+
+.anti_search {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 250;
+    background-color: #ddd;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.anti_box.product .bd {
+    width: 100%;
+    height: 700px;
+}
+
+.anti_search .anti_box.product {
+    border: 10px solid #fff;
+    background-color: transparent;
+    width: 967px;
+    height: 700px;
+    overflow: hidden;
+}
+
+.anti_search .anti_box {
+    width: 800px;
+    height: 550px;
+    position: relative;
+    z-index: 11;
+    background-color: #fff;
+    border: 10px solid #f3f3f3;
+    box-shadow: 0px 0px 20px 10px #d3d3d3;
+}
+
+.anti_search .anti_box.product .ptxt {
+    width: 100%;
+    height: 125px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 2;
+    background-color: #999;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    font-size: 24px;
+    line-height: 64px;
+    text-indent: 20px;
+}
+
+.anti_box.product .bd .slide_li {
+    display: block;
+    overflow: hidden;
+    height: 714px;
+    position: relative;
+}
+
+.anti_box.product .bd .slide_li img {
+    width: 100%;
+}
+
+.anti_box.product .sPrev {
+    width: 64px;
+    height: 64px;
+    display: block;
+    position: absolute;
+    top: 325px;
+    left: 5px;
+    background: url(../img/time_prev.png) no-repeat center center;
+    background-size: 64px;
+}
+
+.anti_box.product .sNext {
+    width: 64px;
+    height: 64px;
+    display: block;
+    position: absolute;
+    top: 325px;
+    right: 5px;
+    background: url(../img/time_next.png) no-repeat center center;
+    background-size: 64px;
+}
+
+.anti_box.product .sPrev:hover {
+    background: url(../img/time_prevon.png) no-repeat center center;
+    background-size: 64px;
+}
+
+.anti_box.product .sNext:hover {
+    background: url(../img/time_nexton.png) no-repeat center center;
+    background-size: 64px;
+}
+
+.public_tab_pro {
+    width: 100%;
+    height: 74px;
+    background-color: #ddd;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 2;
+}
+
+.public_tab_pro .tab_items {
+    width: 1280px;
+    margin: auto;
+    text-align: center;
+}
+
+.public_tab_pro .tab_items a {
+    width: 128px;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    line-height: 74px;
+    position: relative;
+    float: left;
+    text-align: center;
+    height: 74px;
+    box-sizing: border-box;
+}
+
+.public_tab_pro .tab_items a .ico {
+    width: 100%;
+    height: 10px;
+    background: url(../img/type_on_img.png) no-repeat top center;
+    display: none;
+    position: absolute;
+    bottom: -9px;
+    z-index: 3;
+    left: 0px;
+}
+
+.public_tab_pro .tab_items a.on {
+    background-color: #2fc7a0;
+}
+
+.public_tab_pro .tab_items a.on .ico {
+    display: block;
+}
+
+.public_tab_pro .tab_items a:hover {
+    color: #2fc7a0;
+}
+
+.public_tab_pro .tab_items a.on:hover {
+    color: #fff;
+}
+
+.public_tab_pro .tab_items a span {
+    line-height: 20px;
+    width: 80px;
+    display: block;
+    margin: auto;
+    margin-top: 17px;
+    height: 57px;
+}
+
+.anti_search .closeico {
+    width: 36px;
+    height: 36px;
+    background: #3dbfa0 url(../img/closeico.png) no-repeat center center;
+    background-size: 20px;
+    border-radius: 20px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: 260;
+}
+
+.hover:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

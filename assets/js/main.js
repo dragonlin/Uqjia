@@ -55,16 +55,15 @@
 
   var siteOwlCarousel = function() {
     $('.testimonial-carousel').owlCarousel({
-      center: true,
+      // center: true,
       items: 1,
       loop: true,
       margin: 0,
       autoplay: true,
-      smartSpeed: 1000,
+      smartSpeed: 2000,
     });
   };
   siteOwlCarousel();
-
 })(jQuery);
 
 AOS.init({
@@ -72,3 +71,12 @@ AOS.init({
   duration: 1000,
   once: true
 });
+
+  //关闭弹层
+  function close_anti(obj) {
+    $(obj).parent().remove();
+  }
+  //隐藏弹层
+  function close_anti_hide(obj) {
+    $(obj).parent().hide();
+  }
